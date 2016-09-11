@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SQL Servant</title>
+
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+
+		}
+
+		body {
+			font-family: sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			margin: 1em 0;
+		}
+
+		h2 {
+			clear: both;
+			visibility: hidden;
+			height: 0;
+			margin: 0;
+		}
+
+		textarea {
+			width: 60%;
+			display: block;
+			margin: 0 auto;
+			font-family: monospace;
+			height: 10em;
+			font-size: 1.2em;
+		}
+
+		fieldset textarea {
+			width: 90%;
+		}
+
+		fieldset {
+			width: 48%;
+			display: block;
+			float: left;
+			padding: 0;
+			border: none;
+		}
+
+
+
+		legend {
+			padding: 2em 0 0.5em 0;
+			width: 100%;
+			text-align: center;
+		}
+
+		.instructions {
+			font-style: italic;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<h1>SQL Servant</h1>
+
+<form>
+<p class="instructions">Enter your data below. I'll do the rest.</p>
+
+<h2>Output</h2>
+
+<textarea id="input">
+table_name
+key1 = 1
+key2 = '2'
+--
+column1 = 'A'
+column2 = 'B'
+--
+optional = 'default value'
+dontUpdate = 'if it already exists'
+</textarea>
+
+
+<h2>Output</h2>
+<fieldset>
+<legend>Merge</legend>
+	<textarea id="merge-code"></textarea>
+</fieldset>
+
+<fieldset>
+	<legend>Insert</legend>
+	<textarea id="insert-code"></textarea>
+</fieldset>
+
+<fieldset>
+	<legend>Update</legend>
+	<textarea id="update-code"></textarea>
+</fieldset>
+
+<fieldset>
+	<legend>Delete</legend>
+	<textarea id="delete-code"></textarea>
+</fieldset>
+
+</form>
+
+
+
+
+<script type="text/javascript" src="sql-servant.js"></script>
+
+</body>
+</html>

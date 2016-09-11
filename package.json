@@ -1,0 +1,30 @@
+{
+  "name": "eslint-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js",
+    "lint": "eslint .",
+    "lint:scratch": "eslint ./sandbox/scratch.js",
+    "lint:fibonacci": "eslint ./sandbox/fibonacci.js"
+  },
+  "author": "Patrick McElhaney",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "ghooks": "^1.3.2"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run -s lint:fibonacci"
+    }
+  }
+}
