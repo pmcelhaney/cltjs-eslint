@@ -1,0 +1,3 @@
+"no-console": "error",
+"semi": ["error", "never"],
+"complexity": ["error", 5],

@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "node tests.js",
+    "lint": "eslint .",
+    "lint:scratch": "eslint ./sandbox/scratch.js",
+    "lint:fibonacci": "eslint ./sandbox/fibonacci.js"
+  },
+}

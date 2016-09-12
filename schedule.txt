@@ -1,7 +1,0 @@
-Getting Liam from school and to CLTJS in time.
-
-pick-up     leave work  get Liam  arrive
-stonecrest  3:45        4:20      5:00
-home        3:30        4:15      5:15
-school      2:45        3:45      5:00
-bus         3:50        4:45      6:00

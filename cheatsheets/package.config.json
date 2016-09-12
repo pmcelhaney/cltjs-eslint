@@ -1,0 +1,7 @@
+{
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run -s lint:fibonacci"
+    }
+  }
+}
