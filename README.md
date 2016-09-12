@@ -44,3 +44,4 @@ yo eslint:rule # for each rule you want to create
 - Keynote Presentation (eslint-talk.key)
 - Some JS files for playing around (sandbox)
 - Code snippets of things I'll probably forget when lots of people are staring at me (cheatsheets)
+- package.json with ESLint pre-installed

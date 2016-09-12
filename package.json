@@ -1,0 +1,30 @@
+{
+  "name": "cltjs-eslint",
+  "version": "1.0.0",
+  "description": "ESLint Demo",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^3.4.0",
+    "ghooks": "^1.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmcelhaney/cltjs-eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "tutorial"
+  ],
+  "author": "Patrick McELhaney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmcelhaney/cltjs-eslint/issues"
+  },
+  "homepage": "https://github.com/pmcelhaney/cltjs-eslint#readme"
+}
